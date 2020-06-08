@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="modewt" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="user" layoutX="289.0" layoutY="134.0" promptText="  Username" />
+      <TextField fx:id="pp" layoutX="289.0" layoutY="173.0" promptText="Password" />
+      <Button fx:id="in" layoutX="289.0" layoutY="231.0" mnemonicParsing="false" onAction="#buttonin" text="Sign In" />
+      <Button fx:id="up" layoutX="386.0" layoutY="264.0" mnemonicParsing="false" onAction="#buttonup" text="Sign Up" />
+      <Label layoutX="233.0" layoutY="29.0" prefHeight="38.0" prefWidth="333.0" text="Manage your document" textFill="#255cba">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
+
